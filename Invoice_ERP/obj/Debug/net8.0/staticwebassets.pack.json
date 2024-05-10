@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Invoice_ERP.bundle.scp.css"
     },
     {
+      "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\css\\dark-theme.css",
+      "PackagePath": "staticwebassets\\css\\dark-theme.css"
+    },
+    {
+      "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\css\\light-theme.css",
+      "PackagePath": "staticwebassets\\css\\light-theme.css"
+    },
+    {
       "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

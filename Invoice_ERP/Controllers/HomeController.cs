@@ -1,11 +1,14 @@
 using Invoice_ERP.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Invoice_ERP.Controllers
 {
+    [Authorize(Policy = "GeneralAccessPolicy")]
     public class HomeController : Controller
     {
+        
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)

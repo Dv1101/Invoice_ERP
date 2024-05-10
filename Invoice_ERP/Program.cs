@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Invoice_ERP.Data;
 using Invoice_ERP.Areas.Identity.Data;
+using Microsoft.Extensions.Options;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Invoice_ERPContextConnection") ?? throw new InvalidOperationException("Connection string 'Invoice_ERPContextConnection' not found.");
 
@@ -14,7 +15,17 @@ builder.Services.AddDefaultIdentity<Invoice_ERPUser>(options => options.SignIn.R
     .AddEntityFrameworkStores<Invoice_ERPContext>();
 
 builder.Services.AddAuthorization(options =>
-    options.AddPolicy("TwoFactorEnabled", x => x.RequireClaim("amr", "mfa")));
+{
+    options.AddPolicy("TwoFactorEnabled", x => x.RequireClaim("amr", "mfa"));
+    options.AddPolicy("HRPolicy", policy => policy.RequireRole("HR"));
+    options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("CashierPolicy", policy => policy.RequireRole("Cashier"));
+    options.AddPolicy("GeneralAccessPolicy", policy =>
+    {
+        policy.RequireRole("HR", "Cashier", "Admin");
+    });
+});
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
