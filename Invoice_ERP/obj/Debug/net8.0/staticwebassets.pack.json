@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\js\\qr.js",
+      "PackagePath": "staticwebassets\\js\\qr.js"
+    },
+    {
       "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +247,14 @@
     {
       "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\qrcode.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.js"
+    },
+    {
+      "Id": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Invoice_ERP.Microsoft.AspNetCore.StaticWebAssets.props",

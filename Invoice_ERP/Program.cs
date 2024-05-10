@@ -7,10 +7,14 @@ var connectionString = builder.Configuration.GetConnectionString("Invoice_ERPCon
 
 builder.Services.AddDbContext<Invoice_ERPContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddIdentity<Invoice_ERPUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<Invoice_ERPContext>()
+builder.Services.AddDefaultIdentity<Invoice_ERPUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddDefaultTokenProviders()
+    .AddRoles<IdentityRole>()
     .AddDefaultUI()
-    .AddDefaultTokenProviders();
+    .AddEntityFrameworkStores<Invoice_ERPContext>();
+
+builder.Services.AddAuthorization(options =>
+    options.AddPolicy("TwoFactorEnabled", x => x.RequireClaim("amr", "mfa")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -25,6 +29,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.MapRazorPages(); //Identity is using razor pages.
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -36,6 +42,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapRazorPages(); //Identity is using razor pages.
+
 
 app.Run();

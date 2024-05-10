@@ -19,7 +19,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using Invoice_ERP.Migrations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 
 namespace Invoice_ERP.Areas.Identity.Pages.Account
 {
@@ -27,7 +29,7 @@ namespace Invoice_ERP.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<Invoice_ERPUser> _signInManager;
         private readonly UserManager<Invoice_ERPUser> _userManager;
-        
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IUserStore<Invoice_ERPUser> _userStore;
         private readonly IUserEmailStore<Invoice_ERPUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
@@ -37,7 +39,7 @@ namespace Invoice_ERP.Areas.Identity.Pages.Account
             UserManager<Invoice_ERPUser> userManager,
             IUserStore<Invoice_ERPUser> userStore,
             SignInManager<Invoice_ERPUser> signInManager,
-           
+            RoleManager<IdentityRole> roleManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
@@ -45,7 +47,7 @@ namespace Invoice_ERP.Areas.Identity.Pages.Account
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
-         
+            _roleManager = roleManager;
             _logger = logger;
             _emailSender = emailSender;
         }
@@ -75,6 +77,23 @@ namespace Invoice_ERP.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
+            //Dhruv_ApplicatonUser_ExtraFields
+            [Required]
+            [Display(Name = "Employee Id")]
+            public string empId { get; set; }
+
+            [Required]
+            [Display(Name = "First Name")]
+            public string firstName { get; set; }
+
+            [Required]
+            [Display(Name = "Last Name")]
+            public string lastName { get; set; }
+
+            [Required]
+            [Display(Name = "Employee Registration Date")]
+            public DateTime regDate { get; set; }
+
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -102,16 +121,30 @@ namespace Invoice_ERP.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            public string Role { get; set; }
+
+            [ValidateNever]
+            public IEnumerable<SelectListItem> RoleList { get; set; }
         }
 
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            //Generating Default roles seed if not exists in roles table
-            
-
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
+            //Generating Default roles seed if not exists in roles table
+            Input = new InputModel()
+            {
+                RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
+                {
+                    Text = i,
+                    Value = i
+                })
+            };
+            Input.regDate = DateTime.Today.Date;
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
@@ -124,11 +157,21 @@ namespace Invoice_ERP.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
+                //Custom fields
+                user.firstName = Input.firstName;
+                user.lastName = Input.lastName;
+                user.empId = Input.empId;
+                user.regDate = Input.regDate;
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    //Assigning role as selected.
+                    await _userManager.AddToRoleAsync(user, Input.Role);
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

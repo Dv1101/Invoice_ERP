@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Invoice_ERP.Migrations
 {
     [DbContext(typeof(Invoice_ERPContext))]
-    [Migration("20240509160830_extended_Identity")]
-    partial class extended_Identity
+    [Migration("20240510083537_updateRoles11")]
+    partial class updateRoles11
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,8 +89,8 @@ namespace Invoice_ERP.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateOnly>("regDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("regDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 

@@ -3,60 +3,88 @@
   "WorkspaceRootPath": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509165433_extended_Identity_update_nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Invoice_ERP\\Migrations\\20240509165433_extended_Identity_update_nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\data\\invoice_erpuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\data\\invoice_erpuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509160830_extended_Identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Invoice_ERP\\Migrations\\20240509160830_extended_Identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\wwwroot\\js\\qr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\wwwroot\\js\\qr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\data\\rolesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\data\\rolesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\invoice_erp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\invoice_erp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\data\\invoice_erpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\data\\invoice_erpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\data\\staticroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\data\\staticroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\areas\\identity\\data\\invoice_erpuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\areas\\identity\\data\\invoice_erpuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\controllers\\approlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\controllers\\approlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510060759_update_appUser Dields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Invoice_ERP\\Migrations\\20240510060759_update_appUser Dields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\views\\approles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\views\\approles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\views\\approles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\views\\approles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509092330_new_Identity_install.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Invoice_ERP\\Migrations\\20240509092330_new_Identity_install.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\migrations\\20240510082845_updateroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\migrations\\20240510082845_updateroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\invoice_erp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\invoice_erp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\migrations\\20240510083537_updateroles11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\migrations\\20240510083537_updateroles11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\migrations\\20240510083201_updateroles1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\migrations\\20240510083201_updateroles1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\migrations\\20240510080613_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\migrations\\20240510080613_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|c:\\files\\code\\dotnet\\aspnetcore_mvc\\invoice_erp\\invoice_erp\\invoice_erp\\migrations\\20240510061427_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2619126C-4026-42AF-B7A6-EC23D9C57836}|Invoice_ERP\\Invoice_ERP.csproj|solutionrelative:invoice_erp\\migrations\\20240510061427_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,59 +94,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240509165433_extended_Identity_update_nullable.cs",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509165433_extended_Identity_update_nullable.cs",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240509165433_extended_Identity_update_nullable.cs",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509165433_extended_Identity_update_nullable.cs",
-              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240509165433_extended_Identity_update_nullable.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:54:33.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "rolesManager.cs",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\rolesManager.cs",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Data\\rolesManager.cs",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\rolesManager.cs",
-              "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Data\\rolesManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:46:48.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAwDEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:15:12.499Z",
+              "Title": "EnableAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T08:56:31.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "qr.js",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\js\\qr.js",
+              "RelativeDocumentMoniker": "Invoice_ERP\\wwwroot\\js\\qr.js",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\js\\qr.js",
+              "RelativeToolTip": "Invoice_ERP\\wwwroot\\js\\qr.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-10T08:57:12.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "AppRolesController.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Controllers\\AppRolesController.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Controllers\\AppRolesController.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Controllers\\AppRolesController.cs",
+              "RelativeToolTip": "Invoice_ERP\\Controllers\\AppRolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T05:09:46.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Invoice_ERPUser.cs",
               "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPUser.cs",
               "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPUser.cs",
               "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPUser.cs",
               "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:03:49.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T16:03:49.603Z"
             },
             {
               "$type": "Document",
@@ -128,105 +158,110 @@
               "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPContext.cs",
               "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPContext.cs",
               "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Data\\Invoice_ERPContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBkAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwA8AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T09:37:24.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T09:27:33.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T09:37:24.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAApwJkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:15:12.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwCUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T06:49:29.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Program.cs",
               "RelativeDocumentMoniker": "Invoice_ERP\\Program.cs",
               "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Program.cs",
               "RelativeToolTip": "Invoice_ERP\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T09:18:41.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240509160830_extended_Identity.cs",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509160830_extended_Identity.cs",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240509160830_extended_Identity.cs",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509160830_extended_Identity.cs",
-              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240509160830_extended_Identity.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAUwCYAAAAgAAAA",
+              "DocumentIndex": 16,
+              "Title": "20240510082845_updateRoles.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510082845_updateRoles.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240510082845_updateRoles.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510082845_updateRoles.cs",
+              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240510082845_updateRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:08:30.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T08:28:45.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240510083537_updateRoles11.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510083537_updateRoles11.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240510083537_updateRoles11.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510083537_updateRoles11.cs",
+              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240510083537_updateRoles11.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:35:37.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Invoice_ERP.csproj",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP.csproj",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Invoice_ERP.csproj",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP.csproj",
+              "RelativeToolTip": "Invoice_ERP\\Invoice_ERP.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-09T08:02:26.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240510083201_updateRoles1.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510083201_updateRoles1.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240510083201_updateRoles1.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510083201_updateRoles1.cs",
+              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240510083201_updateRoles1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:32:01.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240510080613_roles.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510080613_roles.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240510080613_roles.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510080613_roles.cs",
+              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240510080613_roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:06:13.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "staticRoles.cs",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\staticRoles.cs",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Areas\\Identity\\Data\\staticRoles.cs",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Areas\\Identity\\Data\\staticRoles.cs",
-              "RelativeToolTip": "Invoice_ERP\\Areas\\Identity\\Data\\staticRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:26:24.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240509092330_new_Identity_install.cs",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509092330_new_Identity_install.cs",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240509092330_new_Identity_install.cs",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240509092330_new_Identity_install.cs",
-              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240509092330_new_Identity_install.cs",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T09:23:30.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAAB4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T09:19:35.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\appsettings.json",
-              "RelativeDocumentMoniker": "Invoice_ERP\\appsettings.json",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\appsettings.json",
-              "RelativeToolTip": "Invoice_ERP\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-09T09:18:53.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "Invoice_ERP\\ScaffoldingReadMe.txt",
@@ -234,21 +269,91 @@
               "RelativeToolTip": "Invoice_ERP\\ScaffoldingReadMe.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-09T09:16:45.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T09:16:45.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240510061427_first.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510061427_first.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240510061427_first.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510061427_first.cs",
+              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240510061427_first.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:14:27.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\AppRoles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Views\\AppRoles\\Index.cshtml",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\AppRoles\\Index.cshtml",
+              "RelativeToolTip": "Invoice_ERP\\Views\\AppRoles\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T05:19:41.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\AppRoles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Views\\AppRoles\\Create.cshtml",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\AppRoles\\Create.cshtml",
+              "RelativeToolTip": "Invoice_ERP\\Views\\AppRoles\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T05:36:38.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240510060759_update_appUser Dields.cs",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510060759_update_appUser Dields.cs",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Migrations\\20240510060759_update_appUser Dields.cs",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Migrations\\20240510060759_update_appUser Dields.cs",
+              "RelativeToolTip": "Invoice_ERP\\Migrations\\20240510060759_update_appUser Dields.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:08:00.045Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Invoice_ERP",
-              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP.csproj",
-              "RelativeDocumentMoniker": "Invoice_ERP\\Invoice_ERP.csproj",
-              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP.csproj",
-              "RelativeToolTip": "Invoice_ERP\\Invoice_ERP.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-09T08:02:26.816Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Invoice_ERP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T09:19:35.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Invoice_ERP\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T09:27:33.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\appsettings.json",
+              "RelativeDocumentMoniker": "Invoice_ERP\\appsettings.json",
+              "ToolTip": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\appsettings.json",
+              "RelativeToolTip": "Invoice_ERP\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-09T09:18:53.416Z"
             },
             {
               "$type": "Bookmark",
