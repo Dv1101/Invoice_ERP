@@ -46,3 +46,14 @@ button.accept-policy[b-6xvzk50d7j] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+
+/*Custom CSS*/
+
+.nav-link-custom[b-6xvzk50d7j] {
+    color: #ab9ebf;
+}
+
+.nav-link-custom:hover[b-6xvzk50d7j] {
+    color: #cbc3d8;
+}

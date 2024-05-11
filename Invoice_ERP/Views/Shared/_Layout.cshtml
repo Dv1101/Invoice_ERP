@@ -91,7 +91,7 @@
     </script>
     <link rel="stylesheet" href="~/Invoice_ERP.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+
     
 </head>
 <body>
@@ -113,6 +113,29 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " asp-area="" asp-controller="AppRoles" asp-action="Index">Roles</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-custom" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                                <i class="bi bi-bag"></i>&nbsp;Inventory
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-item" asp-area="" asp-controller="Category" asp-action="Index"><i class="bi bi-bookmark-plus"></i>&nbsp;Category</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-item" asp-area="" asp-controller="ItemsStocks" asp-action="Index"><i class="bi bi-boxes"></i>&nbsp;Items - Stock</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-item" asp-area="" asp-controller="UnitOfMeasures" asp-action="Index"><i class="bi bi-rulers"></i>&nbsp;Unit Of Measurent</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-item" asp-area="" asp-controller="Suppliers" asp-action="Index"><i class="bi bi-truck"></i>&nbsp;Supplier</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                     </ul>
                     <div>

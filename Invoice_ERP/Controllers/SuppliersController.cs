@@ -8,34 +8,32 @@ using Microsoft.EntityFrameworkCore;
 using Invoice_ERP.Data;
 using Invoice_ERP.Models;
 using Microsoft.AspNetCore.Identity;
-using Invoice_ERP.Areas.Identity.Data;
 using System.Globalization;
+using Invoice_ERP.Areas.Identity.Data;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Invoice_ERP.Controllers
 {
     [Authorize(Policy = "AdminPolicy")]
-    public class CategoryController : Controller
+    public class SuppliersController : Controller
     {
         private readonly UserManager<Invoice_ERPUser> _userManager;
         private readonly Invoice_ERPContext _context;
 
         // Constructor with UserManager and Invoice_ERPContext
-        public CategoryController(UserManager<Invoice_ERPUser> userManager, Invoice_ERPContext context)
+        public SuppliersController(UserManager<Invoice_ERPUser> userManager, Invoice_ERPContext context)
         {
             _userManager = userManager;
             _context = context;
         }
 
-
-
-        // GET: CategoryModels
+        // GET: Suppliers
         public async Task<IActionResult> Index()
         {
-            return View(await _context.CategoryModel.ToListAsync());
+            return View(await _context.Supplier.ToListAsync());
         }
 
-        // GET: CategoryModels/Details/5
+        // GET: Suppliers/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,17 +41,18 @@ namespace Invoice_ERP.Controllers
                 return NotFound();
             }
 
-            var categoryModel = await _context.CategoryModel
+            var supplier = await _context.Supplier
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (categoryModel == null)
+            if (supplier == null)
             {
                 return NotFound();
             }
 
-            return View(categoryModel);
+            return View(supplier);
         }
 
-        // GET: CategoryModels/Create
+        // GET: Suppliers/Create
+
         public async Task<IActionResult> Create()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -67,33 +66,32 @@ namespace Invoice_ERP.Controllers
             string createdBy = $"{user.firstName} {user.lastName} ({string.Join(", ", await _userManager.GetRolesAsync(user))})";
 
             // Create a new Category instance
-            Category category = new Category
+            Supplier supplier = new Supplier
             {
                 CreatedBy = createdBy,
                 CreatedOn = DateTime.ParseExact(DateTime.Now.ToString("dd-MM-yyyy hh:mm tt"), "dd-MM-yyyy hh:mm tt", CultureInfo.InvariantCulture)
             };
 
-            return View(category);
+            return View(supplier);
         }
 
-
-        // POST: CategoryModels/Create
+        // POST: Suppliers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,CreatedOn,CreatedBy")] Category categoryModel)
+        public async Task<IActionResult> Create([Bind("Id,Name,ContactPerson,Email,PhoneNo,CreatedOn,CreatedBy")] Supplier supplier)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(categoryModel);
+                _context.Add(supplier);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(categoryModel);
+            return View(supplier);
         }
 
-        // GET: CategoryModels/Edit/5
+        // GET: Suppliers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -101,22 +99,22 @@ namespace Invoice_ERP.Controllers
                 return NotFound();
             }
 
-            var categoryModel = await _context.CategoryModel.FindAsync(id);
-            if (categoryModel == null)
+            var supplier = await _context.Supplier.FindAsync(id);
+            if (supplier == null)
             {
                 return NotFound();
             }
-            return View(categoryModel);
+            return View(supplier);
         }
 
-        // POST: CategoryModels/Edit/5
+        // POST: Suppliers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,CreatedOn,CreatedBy")] Category categoryModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ContactPerson,Email,PhoneNo,CreatedOn,CreatedBy")] Supplier supplier)
         {
-            if (id != categoryModel.Id)
+            if (id != supplier.Id)
             {
                 return NotFound();
             }
@@ -125,12 +123,12 @@ namespace Invoice_ERP.Controllers
             {
                 try
                 {
-                    _context.Update(categoryModel);
+                    _context.Update(supplier);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoryModelExists(categoryModel.Id))
+                    if (!SupplierExists(supplier.Id))
                     {
                         return NotFound();
                     }
@@ -141,10 +139,10 @@ namespace Invoice_ERP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(categoryModel);
+            return View(supplier);
         }
 
-        // GET: CategoryModels/Delete/5
+        // GET: Suppliers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -152,34 +150,34 @@ namespace Invoice_ERP.Controllers
                 return NotFound();
             }
 
-            var categoryModel = await _context.CategoryModel
+            var supplier = await _context.Supplier
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (categoryModel == null)
+            if (supplier == null)
             {
                 return NotFound();
             }
 
-            return View(categoryModel);
+            return View(supplier);
         }
 
-        // POST: CategoryModels/Delete/5
+        // POST: Suppliers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var categoryModel = await _context.CategoryModel.FindAsync(id);
-            if (categoryModel != null)
+            var supplier = await _context.Supplier.FindAsync(id);
+            if (supplier != null)
             {
-                _context.CategoryModel.Remove(categoryModel);
+                _context.Supplier.Remove(supplier);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CategoryModelExists(int id)
+        private bool SupplierExists(int id)
         {
-            return _context.CategoryModel.Any(e => e.Id == id);
+            return _context.Supplier.Any(e => e.Id == id);
         }
     }
 }

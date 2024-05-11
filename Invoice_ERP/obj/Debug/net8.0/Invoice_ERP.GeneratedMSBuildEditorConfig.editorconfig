@@ -222,6 +222,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/ItemsStocks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNTdG9ja3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/ItemsStocks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNTdG9ja3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/ItemsStocks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNTdG9ja3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/ItemsStocks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNTdG9ja3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/ItemsStocks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNTdG9ja3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -232,6 +252,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Suppliers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Suppliers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Suppliers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Suppliers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/Suppliers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/UnitOfMeasures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdE9mTWVhc3VyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/UnitOfMeasures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdE9mTWVhc3VyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/UnitOfMeasures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdE9mTWVhc3VyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/UnitOfMeasures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdE9mTWVhc3VyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/UnitOfMeasures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdE9mTWVhc3VyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Files/code/dotnet/ASPNETCORE_MVC/Invoice_ERP/Invoice_ERP/Invoice_ERP/Views/_ViewImports.cshtml]
