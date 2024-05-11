@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Invoice_ERP.Models;
 
 namespace Invoice_ERP.Data;
 
@@ -13,7 +14,7 @@ public class Invoice_ERPContext : IdentityDbContext<Invoice_ERPUser>
 
     }
 
-    public DbSet<Invoice_ERPUser> extendedIdentity { get; set; }
+    public DbSet<Invoice_ERPUser> extendedIdentity { get; set; } //Extra Fields Tables for identity
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -22,4 +23,6 @@ public class Invoice_ERPContext : IdentityDbContext<Invoice_ERPUser>
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
     }
+
+public DbSet<Invoice_ERP.Models.Category> CategoryModel { get; set; } = default!;
 }

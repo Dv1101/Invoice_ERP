@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Invoice_ERP.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/lib/datatables/datatables.min.css" rel="stylesheet" />
+
+<div class="row pt-4">
+    <div class="col-6">
+        <h1>Category</h1>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i>&nbsp;Create New Category
+        </a>
+    </div>
+</div>
+
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered" id="categoryTbl">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreatedOn)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedOn)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a> |
+                        <a asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-info-circle-fill" style="color:deepskyblue"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash3-fill" style="color:red"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/lib/datatables/datatables.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#categoryTbl').DataTable({
+            responsive: true
+        });
+    });
+</script>

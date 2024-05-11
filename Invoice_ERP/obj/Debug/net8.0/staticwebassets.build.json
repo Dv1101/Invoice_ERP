@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pPgAuXT8PlN/b13gcGsBF137uCma08IYGWzKYlRC4JM=",
+  "Hash": "Q/gMbq7pYEdBByjzWr4w9h6oDif60F6DRNdHO3E4cDE=",
   "Source": "Invoice_ERP",
   "BasePath": "_content/Invoice_ERP",
   "Mode": "Default",
@@ -1024,12 +1024,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\datatables\\datatables.min.css",
       "SourceId": "Invoice_ERP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\",
       "BasePath": "_content/Invoice_ERP",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/datatables/datatables.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1040,15 +1040,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\datatables\\datatables.min.css"
     },
     {
-      "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\datatables\\datatables.min.js",
       "SourceId": "Invoice_ERP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\",
       "BasePath": "_content/Invoice_ERP",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/datatables/datatables.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1059,15 +1059,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\datatables\\datatables.min.js"
     },
     {
-      "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\jquery\\dist\\jquery-3.7.1.min.js",
       "SourceId": "Invoice_ERP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\",
       "BasePath": "_content/Invoice_ERP",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery/dist/jquery-3.7.1.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1078,7 +1078,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery-3.7.1.min.js"
     },
     {
       "Identity": "C:\\Files\\code\\dotnet\\ASPNETCORE_MVC\\Invoice_ERP\\Invoice_ERP\\Invoice_ERP\\wwwroot\\lib\\jquery\\LICENSE.txt",
